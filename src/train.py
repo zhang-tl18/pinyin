@@ -3,7 +3,7 @@ import os
 
 # python main.py -t <dic_file> <train_path> [<save_file>]
 
-def train(dic_file, train_path, save_file="./train.json"):
+def train(dic_file, train_path, save_file="./train.txt"):
     chars = []
     char2id = {}
     with open(dic_file, "r") as rf:

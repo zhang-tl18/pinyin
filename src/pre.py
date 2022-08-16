@@ -3,7 +3,7 @@ import json
 
 # python main.py -r <chars_file> <pinyin_file> [<save_file>]
 
-def read_char(char_file, pinyin_file, save_file="./pre.json"):
+def read_char(char_file, pinyin_file, save_file="./pre.txt"):
     chars = []
     char2id = {}
     pinyins = []
